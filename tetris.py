@@ -44,7 +44,6 @@ while True:
     
     if current_block[0][0] == max_x:
        current_block = copy.deepcopy(tetronimo[blocks[random.randint(0,len(blocks)-1)]]) 
-    
 
 curses.nocbreak()
 stdscr.keypad(False)
