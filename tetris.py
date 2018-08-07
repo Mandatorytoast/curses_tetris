@@ -20,6 +20,7 @@ tetronimo = {"I": [[0,1],[0,2],[0,3],[0,4]],
              "RL": [[0,2],[1,2],[2,2],[2,1]]}
 
 
+
 blocks = list(tetronimo.keys())
 
 
@@ -49,4 +50,3 @@ curses.nocbreak()
 stdscr.keypad(False)
 curses.echo()
 curses.endwin()
-#friendly comment
