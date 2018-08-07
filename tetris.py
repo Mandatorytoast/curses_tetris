@@ -13,7 +13,6 @@ y_pos = 0
 max_x = 19
 #STARTING COORDINATES FOR ALL THE TETRONIMOES
 #TODO: ADD ROTATED VERSIONS
-#TODO: MAKE FIRST POSITION THE LOWEST POINT ON THE BLOCK
 tetronimo = {"I": [[0,1],[0,2],[0,3],[0,4]],
              "O": [[1,1],[1,2],[0,1],[0,2]],
              "T": [[1,2],[0,1],[0,2],[0,3]],
